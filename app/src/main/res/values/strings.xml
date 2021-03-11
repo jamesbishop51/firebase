@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">firebase</string>
+    <string name="com_auth0_client_id">dBqRdfLGu8zA1utZMLZ2cEcpPlZ2AJEE</string>
+    <string name="com_auth0_domain">dagda.eu.auth0.com</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+
 </resources>

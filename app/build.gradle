@@ -14,7 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
+        manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "https"]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -39,16 +39,12 @@ dependencies {
     implementation 'com.auth0.android:auth0:2.+'
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-messaging:21.0.1'
-    implementation 'com.github.developerxrahul:amazon-s3-android-uploader:v1.4'
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 
-    /*Amazon S3 Libraries*/
-    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.31'
-    implementation 'com.amazonaws:aws-android-sdk-cognito:2.6.31'
-    implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.2.+'
-    implementation 'org.jetbrains:annotations-java5:15.0'
+
 }
 apply plugin: 'com.google.gms.google-services'
